@@ -1,0 +1,68 @@
+:root {
+    --page-bg: ;
+    --primary: ;
+    --text: ;
+    --accent: ;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--page-bg);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 16px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.neck {
+background-color: black;
+height: 130px;
+width: 80px;
+}
+
+.body {
+    background-color: black;
+    height: 500px;
+    width: 180px;
+    padding: 2em;
+}
+
+.red {
+    background-color: red;
+    height: 10em;
+    width: 50em;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 10em;
+    width: 50em;
+}
+
+.green {
+    background-color: green;
+    height: 10em;
+    width: 50em;
+}
+
+/* UTILITY */
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.align-center
+.justify 
